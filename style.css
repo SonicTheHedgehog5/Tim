@@ -1,0 +1,85 @@
+body{
+    margin:0;
+    padding-top:800px;
+    text-align:center;
+}
+
+.profile{
+    border-radius:50% ;
+    margin-top:50px ;
+}
+
+.menu{
+    list-style: none;
+    position: fixed;
+    top: 0px; 
+    margin-top: 0px;
+    z-index: 10;
+    cursor: pointer;
+    width:100%; 
+    background-color: aquamarine;
+}
+
+.links{
+    float: left;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family:fantasy;
+    font-size: 20px;
+}
+
+#welcome{
+    background-color: aquamarine;
+    font-family: 'Pacifico', cursive;
+    position:absolute;
+    height: 100%;
+    width: 100%;
+    display:table;
+    bottom:0;
+}
+
+#bio{
+  padding:50px; 
+  font-family:'Pacifico', cursive; 
+}
+
+.parallax.inner{
+   display: table-cell; 
+   vertical-align:middle;
+}
+
+h1{
+    font-size:40px ;
+    font-weight:300;
+}
+
+h2{
+    font-size:30px ;
+    font-weight:300;
+}
+
+a{
+  text-decoration:none;  
+}
+
+.links:hover{
+    font-size:25px; 
+    text-decoration:wavy;
+}
+
+#writings a{
+    text-decoration:underline !important;
+    color:green !important;
+
+}
+
+#contact{
+    background-color: lightgrey;
+
+}
+
+.contact_1 h3{
+    display:inline
+}
